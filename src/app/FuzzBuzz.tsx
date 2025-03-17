@@ -33,8 +33,8 @@ export function FuzzBuzzCalculator() {
     };
 
     return (
-        <div className="p-8 flex flex-col justify-center w-[40vw] h-[45vh] bg-gray-600 rounded-2xl">
-            <h1 className="text-5xl text-white flex">FizzBuzz Kalkulator</h1>
+        <div className="p-8 flex flex-col justify-center w-[40vw] h-[45vh] bg-gray-400 rounded-2xl">
+            <h1 className="text-5xl text-white flex font-bold">FizzBuzz Kalkulator</h1>
             <form onSubmit={handleSubmit}>
                 <input
                     className="flex border-2 w-full mt-4 p-2 bg-white border-white rounded-2xl"
@@ -43,7 +43,7 @@ export function FuzzBuzzCalculator() {
                     type="number"
                     required
                 />
-                <button className="h-8 w-32 mt-4 bg-green-400 rounded-2xl text-white">
+                <button className="h-8 w-32 mt-4 bg-green-400  rounded-2xl text-white hover:bg-green-700">
                     Regn ut FizzBuzz
                 </button>
             </form>

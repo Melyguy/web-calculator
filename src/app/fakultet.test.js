@@ -1,4 +1,4 @@
-import { fakultet } from './fakultet.js';
+import { fakultet } from './tsBrains/fakultet.js';
 import test from 'node:test';
 import * as assert from "node:assert";
 

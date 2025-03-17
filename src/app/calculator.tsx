@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from 'react'
-import fakultet from './fakultet'
+import fakultet from './tsBrains/fakultet'
 
 export function Calculator() {
     const [result, setResult] = useState<number | null>(null);
@@ -18,11 +18,11 @@ export function Calculator() {
     };
 
     return (
-        <div className="p-8 flex flex-col justify-center w-[40vw] h-[45vh] bg-gray-600 rounded-2xl" id="fakultet">
-            <h1 className="text-5xl text-white flex">Fakultet Kalkulator</h1>
+        <div className="p-8 flex flex-col justify-center w-[40vw] h-[45vh] bg-gray-400 rounded-2xl" id="fakultet">
+            <h1 className="text-5xl text-white flex font-bold">Fakultet Kalkulator</h1>
             <form onSubmit={handleSubmit}>
                 <input className="flex border-2 mt-16 w-40vw bg-white border-white rounded-2xl" name="tall" placeholder="" type="number" />
-                <button className="h-8 w-32 mt-8 bg-green-400 rounded-2xl text-white">
+                <button className="h-8 w-32 mt-8 bg-green-400 rounded-2xl text-white font-bold hover:bg-green-700">
                     Regn ut fakultet
                 </button>
             </form>

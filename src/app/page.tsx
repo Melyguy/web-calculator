@@ -1,4 +1,5 @@
 import { Calculator } from "./calculator";
+import { Fibonacci } from "./fibonacci";
 import { FuzzBuzzCalculator } from "./FuzzBuzz";
 
 
@@ -9,6 +10,8 @@ export default function Home() {
       <Calculator />
 
       <FuzzBuzzCalculator />
+      
+      <Fibonacci />
     </div>
   );
 }
