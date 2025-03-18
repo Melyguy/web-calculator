@@ -18,7 +18,7 @@ export function Calculator() {
     };
 
     return (
-        <div className="p-8 flex flex-col justify-center w-[40vw] h-[45vh] bg-gray-400 rounded-2xl" id="fakultet">
+        <div className="p-8 flex flex-col justify-center mt-16 w-[40vw] h-[45vh] bg-gray-400 rounded-2xl" id="fakultet">
             <h1 className="text-5xl text-white flex font-bold">Fakultet Kalkulator</h1>
             <form onSubmit={handleSubmit}>
                 <input className="flex border-2 mt-16 w-40vw bg-white border-white rounded-2xl" name="tall" placeholder="" type="number" />
