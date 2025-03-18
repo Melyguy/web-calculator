@@ -1,6 +1,6 @@
-import fizzBuzz from './tsBrains/fuzzbuzzBrain';
 import test from 'node:test';
 import * as assert from 'node:assert';
+import fizzBuzz from './tsBrains/fuzzbuzzBrain';
 
 test('FizzBuzz calculations', async (t) => {
     await t.test('should return empty array for n = 0', () => {
