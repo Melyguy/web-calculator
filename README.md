@@ -19,3 +19,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Unit tests are not working. I've tested them manually and they should go through but they dont when running the tests.
 - Tests works? Jest is required it seems to use unit tests with nextJS.
 - Fakultet test did not work, deleting.
+- Pages and vercel are up, but now dont update.
